@@ -18,4 +18,8 @@ import_group:
 subset_group:
   products:
     - id: IOIO-H
+robot_report:
+  custom_sparql_exports:
+    - base-classes-report
+    - base-properties-report
 robot_java_args: "-Xmx8G"
