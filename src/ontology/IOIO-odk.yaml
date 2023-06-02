@@ -1,0 +1,21 @@
+id: IOIO
+title: Individual Organism Information Ontology
+github_org: OpenLHS
+repo: IOIO
+documentation:
+  documentation_system: mkdocs
+release_artefacts:
+  - full
+  - base
+primary_release: full
+export_formats:
+  - owl
+import_group:
+  products:
+    - id: OpenLHS-Core
+      module_type: mirror
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/OpenLHS-Core/main/OpenLHS-Core.owl"
+subset_group:
+  products:
+    - id: IOIO-H
+robot_java_args: "-Xmx8G"
