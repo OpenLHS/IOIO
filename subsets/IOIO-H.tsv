@@ -1,25 +1,31 @@
 ?x	?label
-_:B613f8128X2D6213X2D41edX2D8e46X2Dc293651ba335genid77	
-_:B613f8128X2D6213X2D41edX2D8e46X2Dc293651ba335genid86	
-_:B613f8128X2D6213X2D41edX2D8e46X2Dc293651ba335genid94	
-_:B613f8128X2D6213X2D41edX2D8e46X2Dc293651ba335genid99	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid106	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid112	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid120	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid125	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid133	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid137	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid88	
+_:B54ad4b3aX2D7beeX2D40bfX2Dab69X2D3de4de651ef0genid97	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
 <http://purl.obolibrary.org/obo/BFO_0000004>	"independent continuant"
+<http://purl.obolibrary.org/obo/BFO_0000008>	"temporal region"
 <http://purl.obolibrary.org/obo/BFO_0000015>	"process"
+<http://purl.obolibrary.org/obo/BFO_0000017>	"realizable entity"
+<http://purl.obolibrary.org/obo/BFO_0000020>	"specifically dependent continuant"
 <http://purl.obolibrary.org/obo/BFO_0000031>	"generically dependent continuant"
 <http://purl.obolibrary.org/obo/BFO_0000040>	"material entity"
 <http://purl.obolibrary.org/obo/IAO_0000030>	"information content entity"
-<http://purl.obolibrary.org/obo/IAO_0000033>	"directive information entity"
 <http://purl.obolibrary.org/obo/IAO_0020000>	"identifier"
 <http://purl.obolibrary.org/obo/IAO_0020010>	"identifier creating process"
 <http://purl.obolibrary.org/obo/IOIO_0000001>	"human birth statement"
 <http://purl.obolibrary.org/obo/IOIO_0000002>	"civil birth record"
 <http://purl.obolibrary.org/obo/IOIO_0000003>	"human death statement"
 <http://purl.obolibrary.org/obo/IOIO_0000004>	"civil death record"
-<http://purl.obolibrary.org/obo/IOIO_0000005>	"human birth date"
-<http://purl.obolibrary.org/obo/IOIO_0000006>	"human death date"
+<http://purl.obolibrary.org/obo/IOIO_0000005>	"human birth temporal characterization"
+<http://purl.obolibrary.org/obo/IOIO_0000006>	"human death temporal characterization"
 <http://purl.obolibrary.org/obo/IOIO_0000010>	"biological sex information content entity"
 <http://purl.obolibrary.org/obo/IOIO_0000011>	"human biological sex information content entity"
 <http://purl.obolibrary.org/obo/IOIO_0000012>	"human biological sex or gender identity information content entity"
@@ -28,9 +34,13 @@ _:B613f8128X2D6213X2D41edX2D8e46X2Dc293651ba335genid99
 <http://purl.obolibrary.org/obo/NCBITaxon_2759>	"Eukaryota"
 <http://purl.obolibrary.org/obo/NCBITaxon_9606>	"Homo sapiens"
 <http://purl.obolibrary.org/obo/OBI_0000011>	"planned process"
+<http://purl.obolibrary.org/obo/OBI_0000245>	"organization"
+<http://purl.obolibrary.org/obo/OBI_0000260>	"plan"
 <http://purl.obolibrary.org/obo/OBI_0100026>	"organism"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000009>	"informational entity"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>	"statement"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>	"state sanctioned statement"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporal characterization"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>	"pragmatically accepted statement"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>	"government sanctioned statement"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporal information"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporal characterization"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>	"agent plan to act as if some statement was true"
+<http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
+<http://www.ontologyrepository.com/CommonCoreOntologies/Agent>	"Agent"

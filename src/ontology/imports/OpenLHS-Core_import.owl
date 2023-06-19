@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl>
-<http://purl.obolibrary.org/obo/IOIO/releases/2023-06-02/imports/OpenLHS-Core_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-06-02/OpenLHS-Core.owl>)
-Annotation(owl:versionInfo "2023-06-02")
+<http://purl.obolibrary.org/obo/IOIO/releases/2023-06-19/imports/OpenLHS-Core_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-06-19/OpenLHS-Core.owl>)
+Annotation(owl:versionInfo "2023-06-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -52,6 +52,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000422>))
@@ -66,6 +67,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000062>))
@@ -91,11 +93,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000187>))
+Declaration(Class(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent>))
+Declaration(Class(<http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
@@ -110,7 +122,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000143>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000219>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000235>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000295>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000001>))
@@ -118,7 +129,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000002>
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000003>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000004>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000005>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000006>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000007>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000008>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
@@ -162,9 +172,13 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002479>))
+Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in>))
+Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_agent>))
+Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability>))
 Declaration(AnnotationProperty(<http://protege.stanford.edu/plugins/owl/protege#defaultLanguage>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/COB_based_on>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000114>))
@@ -186,6 +200,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002259>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002423>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002575>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0040042>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/SEPIO_0000052>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_annotation_extension>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_gp2term>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_ontology>))
@@ -200,6 +215,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/member>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/subject>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
@@ -209,6 +225,8 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#Sub
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
+Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/definition>))
+Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology>))
 Declaration(AnnotationProperty(rdfs:isDefinedBy))
 Declaration(AnnotationProperty(rdfs:seeAlso))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
@@ -457,6 +475,10 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0040042> "R 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0040042> "is homeomorphic for")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/RO_0040042> <https://github.com/oborel/obo-relations/issues/164>)
 
+# Annotation Property: <http://purl.obolibrary.org/obo/SEPIO_0000052> (consider)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000052> "consider"@en)
+
 # Annotation Property: <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> (<http://purl.obolibrary.org/obo/valid_for_go_annotation_extension>)
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/valid_for_go_annotation_extension> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
@@ -489,20 +511,11 @@ AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/date> <htt
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/date> "Date"@en-us)
 AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/date> "Date")
 
-# Annotation Property: <http://purl.org/dc/elements/1.1/source> (Source)
-
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/elements/1.1/source> "The present resource may be derived from the Source resource
-         in whole or in part.  Recommended best practice is to reference
-         the resource by means of a string or number conforming to a
-         formal identification system."@en-us)
-AnnotationAssertion(rdfs:comment <http://purl.org/dc/elements/1.1/source> "A reference to a resource from which the present resource
-         is derived."@en-us)
-AnnotationAssertion(rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/elements/1.1/>)
-AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/source> "Source"@en-us)
-AnnotationAssertion(rdfs:label <http://purl.org/dc/elements/1.1/source> "Source")
-
 # Annotation Property: <http://purl.org/dc/terms/description> (description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/terms/description> "An account of the resource.")
+AnnotationAssertion(rdfs:comment <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.\""@en)
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/description> "description"@en)
 AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/description> "description")
 
 # Annotation Property: <http://purl.org/dc/terms/license> (license)
@@ -518,6 +531,18 @@ AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/title> "title")
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
+
+# Annotation Property: <http://www.ontologyrepository.com/CommonCoreOntologies/definition> (definition)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "A natural language explication of the meaning of the term."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "definition"@en)
+
+# Annotation Property: <http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> (is curated in ontology)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> "An annotation property that links a class, property, or named individual to the URI of the ontology where it is located."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> "is curated in ontology"@en)
 
 # Annotation Property: rdfs:isDefinedBy (rdfs:isDefinedBy)
 
@@ -666,9 +691,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000067> "con
 
 # Object Property: <http://purl.obolibrary.org/obo/IAO_0000136> (is about)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/COB_based_on> <http://purl.obolibrary.org/obo/IAO_0000136> "http://purl.obolibrary.org/obo/IAO_0000136")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000136> "This document is about information artifacts and their representations"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000125>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000136> "A (currently) primitive relation that relates an information artifact to an entity."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000136> "Is_about is a (currently) primitive relation that relates an information artifact to an entity.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000136> "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. 
 
 We will try to build it back up by elaborating the various subproperties that are more precisely defined.
@@ -677,6 +704,8 @@ Some currently missing phenomena that should be considered \"about\" are predica
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000136> "person:Alan Ruttenberg"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000136> "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is_about"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000136> "is about")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Object Property: <http://purl.obolibrary.org/obo/IAO_0000142> (mentions)
@@ -726,37 +755,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000235> "den
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/BFO_0000001>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Object Property: <http://purl.obolibrary.org/obo/OBI_0000293> (has_specified_input)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000293> "see is_input_of example_of_usage"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000293> "The inverse property of is_specified_input_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000293> "8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how 'has participant' works.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Bjoern Peters")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Larry Hunter")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000293> "PERSON: Melanie Coutot")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has_specified_input"@en)
-EquivalentObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000295>))
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/RO_0000057>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000295>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000011>)
-
-# Object Property: <http://purl.obolibrary.org/obo/OBI_0000295> (is_specified_input_of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000295> "is_specified_input_of")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000295> "some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000295> "A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000295> "Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000295> "PERSON:Bjoern Peters")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000295> "is_specified_input_of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/RO_0000056>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000295> <http://purl.obolibrary.org/obo/OBI_0000011>)
-
 # Object Property: <http://purl.obolibrary.org/obo/OBI_0000299> (has_specified_output)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000299> "has_specified_output"@en)
@@ -800,7 +798,6 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000002> <h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000003> "is temporally characterized by"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000002>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000006>)
 
 # Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> (is directed by)
 
@@ -809,15 +806,9 @@ InverseObjectProperties(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> <h
 
 # Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> (characterizes)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> "A characterizes B means that A is about a main feature or quality of B."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> "A characterizes B means that A is about a SDC inhering in B."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> "characterizes"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> <http://purl.obolibrary.org/obo/IAO_0000136>)
-
-# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000006> (temporally characterizes)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000006> "A temporally characterizes B means that A is about a maintemporal feature or quality of B."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000006> "temporally characterizes"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000006> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000005>)
 
 # Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000007> (directs)
 
@@ -841,16 +832,19 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "char
 InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
 FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (bearer of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000053> "bearer of"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this apple is bearer of this red color"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this vase is bearer of this fragility"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000053> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "bearer_of"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "is bearer of"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/RO_0001901>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/RO_0000053> "NOTE: This is term is used within the CCO ecosystem based on it previous intended meaning, which is consistent with BFO in that an SDC must inhere in an IC which is not a Spatial Region."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "bearer of"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic"@en)
 InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
 
@@ -1271,6 +1265,30 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002479> "has 
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/BFO_0000003>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
+# Object Property: <http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> (agent in)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> "x agent_in y iff y is an instance of Process and x is an instance of Agent, such that x is causally active in y."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> "agent in"@en)
+SubObjectPropertyOf(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://purl.obolibrary.org/obo/RO_0000056>)
+InverseObjectProperties(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://www.ontologyrepository.com/CommonCoreOntologies/has_agent>)
+
+# Object Property: <http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> (has agent)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> "x has_agent y iff x is an instance of Process and y is an instance of Agent, such that y is causally active in x."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> "has agent"@en)
+SubObjectPropertyOf(<http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> <http://purl.obolibrary.org/obo/RO_0000057>)
+
+# Object Property: <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> (has capability)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> "x has_capability y iff x is an instance of Agent and y is an instance of Agent Capability, such that x bearer of y."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> "has capability"@en)
+SubObjectPropertyOf(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <http://purl.obolibrary.org/obo/RO_0000053>)
+ObjectPropertyDomain(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>)
+ObjectPropertyRange(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability>)
+
 
 
 ############################
@@ -1479,6 +1497,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000017> "the function of your reproductive organs"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000017> "the role of being a doctor"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000017> "the role of this boundary to delineate where Utah and Colorado meet"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000017> "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/058-002>) <http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000017> "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/060-002>) <http://purl.obolibrary.org/obo/IAO_0000601> <http://purl.obolibrary.org/obo/BFO_0000017> "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/060-002>) <http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000017> "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] ")
@@ -1551,6 +1570,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000023> "the role of a stone in marking a property boundary"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000023> "the role of subject in a clinical trial"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000023> "the student role"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000023> "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000023> "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001>) <http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000023> "b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/061-001>) <http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000023> "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] ")
@@ -1689,7 +1709,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <htt
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/bfo.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
-SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000033>))
 
 # Class: <http://purl.obolibrary.org/obo/BFO_0000034> (function)
 
@@ -1993,6 +2012,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000005>))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000007>))
 
+# Class: <http://purl.obolibrary.org/obo/IAO_0000109> (measurement datum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000109> "measurement datum"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000109> "Examples of measurement data are the recoding of the weight of a mouse as {40,mass,\"grams\"}, the recording of an observation of the behavior of the mouse {,process,\"agitated\"}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000109> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000109> "A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000109> "2/2/2009 is_specified_output of some assay?"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000109> "person:Chris Stoeckert"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000109> "OBI_0000305"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000109> "group:OBI"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000109> "measurement datum"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000109> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
 # Class: <http://purl.obolibrary.org/obo/IAO_0000300> (textual entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000300> "textual entity"@en)
@@ -2040,6 +2072,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000578> "Original proposal from Bjoern, discussions at IAO calls"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000578> "centrally registered identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000578> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000578> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/IAO_0000030>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000646> (postal code)
 
@@ -2179,6 +2212,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000245> "organization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000245> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
+# Class: <http://purl.obolibrary.org/obo/OBI_0000260> (plan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000260> "plan"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000260> "The plan of researcher X to perform an experiment according to a protocol.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000260> <http://purl.obolibrary.org/obo/IAO_0000125>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000260> "A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a planned process."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000260> "This class is included to make clear how the plan specification, the plan, and the planned process relate. OBI will however only subclass and work under the 'plan specification', and 'planned process' class, as we want to avoid to get deep into discussions of 'intend' etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000260> "AR, BP, JM, MC, PRS"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000260> "branch derived"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000260> "plan"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000260> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
 # Class: <http://purl.obolibrary.org/obo/OBI_0100026> (organism)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
@@ -2279,20 +2324,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/OMRSE_00000212> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> (informational entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> "A generically dependent continuant that is a building block of information or a combination thereof."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> "Contrarily to ICE, informational entities are not necessarily about some things. Therefore they includes ICE, but also words like 'unicorn', letters like 'a' or pictures of unicorns."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> "informational entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> (statement)
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> (pragmatically accepted statement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> "An informational entity that is considered valid by some agent at some point in time. (TBD)"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> "statement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> "A statement for which there is at least one contributor such that if it/he acts upon it, it/he will treat it as true."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> "Note that the contributor does not need to believe in the truth of the statement to be disposed to act as if it was true."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> "pragmatically accepted statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> <http://purl.obolibrary.org/obo/SEPIO_0000174>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>))))
 
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> (state sanctioned statement)
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> (government sanctioned statement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> "A statement whom agent considering it true is a state."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> "state sanctioned statement"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> "A date of birth recorded in the French civil registrar."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> "A pragmatically accepted statement authored by a governement or a related organization such that if this organization acts upon it, it will treat it as true."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> "government sanctioned statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/has_agent> <http://purl.obolibrary.org/obo/OBI_0000245>))))
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000012> (informational slot)
 
@@ -2319,7 +2369,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000020> ObjectExactCard
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> (canadian census subdivision identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> "An identifier that denotes a municipality (as determined by provincial/territorial legislation) or an area treated as a municipal equivalent for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories)."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> "An identifier that denotes a Canadian municipality (as determined by provincial/territorial legislation) or a Canadian area treated as a municipal equivalent for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> "canadian census subdivision identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> <http://purl.obolibrary.org/obo/IAO_0020000>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000026>))
@@ -2338,14 +2388,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000023> <http://purl.ob
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> (postal address city)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> "An identifier that denotes a city as part of a postal address."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> "An identifier that denotes a city and is intended to be used as part of a postal address."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> "postal address city"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> <http://purl.obolibrary.org/obo/IAO_0020000>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/IAO_0000422>))
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> (postal address country)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> "An identifier that denotes a country is part of a postal address."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> "An identifier that denotes a country and is intended to be used as part of a postal address."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> "postal address country"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> <http://purl.obolibrary.org/obo/IAO_0020000>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/IAO_0000422>))
@@ -2361,51 +2411,48 @@ SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000026> ObjectExactCard
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000027> "An information content entity representing the will of a person to have something done and specifications for the latter."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000027> "request"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000027> <http://purl.obolibrary.org/obo/BFO_0000031>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028> (service agreement specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028> "An information content entity that specifies a service agreement made between a request party and a service offer party. A service agreement specification can direct some processes that correspond to what has been agreed between the parties."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028> "service agreement specification"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000028> <http://purl.obolibrary.org/obo/BFO_0000031>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000028> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000029> (service offer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000029> "An information content entity describing the processes a person or an organization is willing to perform, usually for a compensation."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000029> "service offer"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000029> <http://purl.obolibrary.org/obo/BFO_0000031>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000029> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> (temporal characterization)
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> (temporal information)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> "An information content entity that is about a one-dimension temporal region."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> "temporal characterization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> "temporal information"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> (process temporal characterization)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> "A temporal specification that is about the occupation of a temporal interval by some processes."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> "A temporal information specifying a temporal region and stating that it overlaps with a temporal region during which some process occured."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> "\"stating\" because the process might have in fact occured at a different time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> "process temporal characterization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000015>))
 
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000032> (statement validity temporal characterization)
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> (process beginning characterization)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000032> "A temporal characterization specifying a temporal region during which a statement is considered valid."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000032> "statement validity temporal characterization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000032> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> "A temporal information specifying a temporal region and stating that it overlaps with a temporal region during which some process began."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> "A process that is a mereological sum of temporally disconnected processes has only one process beginning."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> "process beginning characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
 
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> (statement validity beginning characterization)
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> (process ending characterization)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> "A statement validity temporal characterization specifying a temporal region at which point the statement begins to be considered valid."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> "statement validity beginning characterization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000033> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000032>)
-
-# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> (statement validity ending characterization)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> "A statement validity temporal characterization specifying a temporal region at which point the statement ceases to be considered valid."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> "statement validity ending characterization"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000032>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> "A temporal information specifying a temporal region and stating that it overlaps with a temporal region during which some process ended."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> "A process that is a mereological sum of temporally disconnected processes has only one process ending."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> "process ending characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000034> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000035> (service agreement negotiation)
 
@@ -2421,6 +2468,115 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> "service delivery"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> (agent plan to act as if some statement was true)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> "A plan of an agent to act as if some statement was true."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> "agent plan to act as if some statement was true"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> <http://purl.obolibrary.org/obo/OBI_0000260>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>))
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/SEPIO_0000174>))))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000044> (apparition of a plan to act as if some statement was true)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000044> "A continuant apparition characterization that characterizes the apparition a plan to act as if some statement was true."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000044> "apparition of a plan to act as if some statement was true"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000044> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000052>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000045> (disparition of a plan to act as if some statement was true)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000045> "A continuant disparition characterization that characterizes the disparition a plan to act as if some statement was true."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000045> "disparition of a plan to act as if some statement was true"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000045> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> (continuant temporal characterization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> "'May 5th 2023' for characterizing a plan that existed from 8 AM to noon on this day."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> "A temporal information specifying a temporal region overlapping with a temporal region during which some continuant exists."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> "continuant temporal characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000052> (continuant apparition characterization)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000052> "A continuant temporal characterization specifying a temporal region overlapping with a temporal region during which some continuant appears."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000052> "continuant apparition characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000052> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>)
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> (continuant disparition characterization)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> "A continuant temporal characterization specifying a temporal region overlapping with a temporal region during which some continuant disappears."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> "continuant disparition characterization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>)
+
+# Class: <http://purl.obolibrary.org/obo/SEPIO_0000048> (contributor role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SEPIO_0000048> "A role borne by a  person, group, organization, or information processing entity (e.g. software, algorithms) in virtue of its active participation in a process leading to some outcome (e.g the generation, modification, or provision of some entity).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/SEPIO_0000048> "A role realized by a participant in a process such that the participant causes the process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SEPIO_0000048> "agent role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/SEPIO_0000052> <http://purl.obolibrary.org/obo/SEPIO_0000048> "http://purl.org/see/rdo#agent_role")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SEPIO_0000048> "In the context of evidence and proveannce, agents are persons, groups, organizations, or software that are responsible for making assertions or generating the evidence and data that support them.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000048> "contributor role"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000048> "agent role")
+SubClassOf(<http://purl.obolibrary.org/obo/SEPIO_0000048> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/SEPIO_0000174> (statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/SEPIO_0000174> "The following is derived from https://en.wikipedia.org/wiki/Statement_(logic):
+
+Examples of sentences that are (or make) statements:
+\"Socrates is a man.\"
+\"A triangle has three sides.\"
+\"Madrid is the capital of Spain.\"
+\"There are five ducks on the lake\"
+\"The BRAF V600E mutation causes breast cancer\"
+
+Examples of sentences that are not (or do not make) statements:
+\"Who are you?\"
+\"Run!\"
+\"Greenness perambulates.\"
+\"I had one grunch but the eggplant over there.\"
+\"The King of France is wise.\"
+\"Broccoli tastes good.\"
+
+The first two examples are not declarative sentences and therefore are not (or do not make) statements. The third and fourth are declarative sentences but, lacking meaning, are neither true nor false and therefore are not (or do not make) statements. The fifth and sixth examples are meaningful declarative sentences, but are not statements but rather matters of opinion or taste.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SEPIO_0000174> "An information content entity expressing a declarative sentence that is either true or false.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SEPIO_0000174> "From https://en.wikipedia.org/wiki/Statement_(logic) (2017-06-21):
+\"A statement is a declarative sentence that bears truth value, in that it can be either true or false. This definition derives from the domain of logic, where a statement is either (a) a meaningful declarative sentence that is either true or false, or (b) that which a true or false declarative sentence asserts. In the latter case, a statement is distinct from a sentence in that a sentence is only one formulation of a statement, whereas there may be many other formulations expressing the same statement . . . In (this treatment), \"statement\" is introduced in order to distinguish a sentence from its informational content. A statement is regarded as the information content of an information-bearing sentence. Thus, a sentence is related to the statement it bears like a numeral to the number it refers to. Statements are abstract logical entities, while sentences are grammatical entities.\"
+----
+Note that the definition in (b) describes something closer to the notion of a 'Proposition' as defined in SEPIO?")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SEPIO_0000174> "Statements are sentences (or, more precisely, the information content of sentences) that declare a definitive or proposed fact - expressing something about the world or one's experience of it that may or may not be true. The identity of a particular Statement is dependent upon (1) what it reports as true (its semantic content), (2) the Agent stating it, and (3) the occasion on which the statement is made. 
+
+The phrase \"the pink elephant\" describes an entity, but is not a 'statement' as it has no truth value. By contrast, the phrase \"the pink elephant is in the room\" is a statement as this can be evaluated for its truth.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000174> "statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/SEPIO_0000174> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/SEPIO_0000187> (confidence level)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SEPIO_0000187> "A data item that quantifies the level of confidence an agent has that a particular piece of information is true.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000187> "confidence level"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/SEPIO_0000187> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/SEPIO_0000187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/SEPIO_0000174>))
+SubClassOf(<http://purl.obolibrary.org/obo/SEPIO_0000187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000005> <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>))
+
+# Class: <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> (Agent)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> "A Material Entity that is capable of performing Planned Acts"@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> "Agent"@en)
+EquivalentClasses(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://purl.obolibrary.org/obo/BFO_0000015>)))
+SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000015>))
+SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://purl.obolibrary.org/obo/BFO_0000015>))
+
+# Class: <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> (Agent Capability)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> "A Realizable Entity that inheres in an Agent to the extent of that Agent's capacity to realize it in Intentional Acts of a certain type."@en)
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"^^xsd:anyURI)
+AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> "Agent Capability"@en)
+SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> <http://purl.obolibrary.org/obo/BFO_0000017>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000062>) <http://purl.obolibrary.org/obo/BFO_0000062>)
