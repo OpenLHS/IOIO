@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl>
-<http://purl.obolibrary.org/obo/IOIO/releases/2023-06-19/imports/OpenLHS-Core_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-06-19/OpenLHS-Core.owl>)
-Annotation(owl:versionInfo "2023-06-19")
+<http://purl.obolibrary.org/obo/IOIO/releases/2023-06-20/imports/OpenLHS-Core_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-06-20/OpenLHS-Core.owl>)
+Annotation(owl:versionInfo "2023-06-20")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -69,6 +69,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000245>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000204>))
@@ -103,6 +112,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000187>))
@@ -1967,6 +1977,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.ob
 Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000030> "PERSON: Chris Stoeckert"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/IAO_0000030> "OBI_0000142"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/iao.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/BFO_0000001>))
@@ -2243,6 +2254,92 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0100026> "org
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_10239> <http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_2157> <http://purl.obolibrary.org/obo/NCBITaxon_2759>))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000020> (symptom)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000020> "A process experienced by the patient, which can only be experienced by the patient, that is hypothesized to be clinically relevant."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OGMS_0000020> "note: defined class")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000020> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000020> "creation date: 2010-11-18T11:02:10Z
+Updated: 2020-07-06")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000020> "symptom")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000020> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000031> (disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000031> "A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000031> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000031> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000031> "creation date: 2009-06-23T11:21:20Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000031> "disease")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000031> <http://purl.obolibrary.org/obo/BFO_0000016>)
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000031> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000045> (disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000045> "A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000045> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000045> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000045> "creation date: 2009-06-23T11:39:44Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000045> "disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000061> (pathological bodily process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000061> "A bodily process that is clinically abnormal."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000061> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000061> "http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000061> "creation date: 2009-06-23T11:54:29Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000061> "pathological bodily process")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000061> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000061> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000086> (syndrome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000086> "A pattern of signs and symptoms that typically co-occur."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000086> "Albert Goldfain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000086> "http://code.google.com/p/ogms/issues/detail?id=32")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000086> "creation date: 2009-11-24T04:51:11Z")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000086> "syndrome")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000102> (injury)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000102> "A disorder that involves some structural damage that is immediately caused by a catastrophic external force."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OGMS_0000102> "At the scale of organism (as opposed to the cellular scale or the population scale), an injury is typically the result of a catastrophic event. Consider the implications of making 'injury' a subtype of 'disorder'.
+
+Note: Adopted subtype of disorder, and injury can occur at the scale of organism down to cellular level.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000102> "Albert Goldfain
+Sagar Jain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000102> "http://groups.google.com/group/ogms-discuss/browse_thread/thread/ca0ad373f27774c5
+
+OGMS call adoption- 16 SEPT 2015
+https://docs.google.com/document/d/1iiV1-fTS7BUUSzDw3N_Afx42698YWf54-FOTY2NkAxo/edit")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000102> "creation date: 2011-09-20T09:57:44Z
+edited date: 30 SEPT 2015")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000102> "injury")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000102> <http://purl.obolibrary.org/obo/OGMS_0000045>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000129> (physical sign)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000129> "An abnormal material entity that is part of a patient and hypothesized to be clinically relevant.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000129> "Example: an abnormal growth, an inflammatory infiltrate, swollen tissue, distension")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000129> "physical sign")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000129> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000141> (processual sign)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000141> "An abnormal processual entity occuring in a patient that is hypothesized to be clinically relevant.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000141> "processual sign")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000141> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OGMS_0000142> (qualitative sign)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000142> "An abnormal observable quality of a part of a patient that is hypothesized to be clinically relevant.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000142> "Example: the color of a rash; the shape of a melanoma")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000142> "qualitative sign")
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000142> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
 # Class: <http://purl.obolibrary.org/obo/OMRSE_00000061> (architectural structure)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMRSE_00000061> "A material entity that is a human made strcuture with firm connection between its foundation and the ground."@en)
@@ -2510,6 +2607,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000052> <http://purl.ob
 AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> "A continuant temporal characterization specifying a temporal region overlapping with a temporal region during which some continuant disappears."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> "continuant disparition characterization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>)
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> (pathological condition)
+
+AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> "An entity that is a disorder, a disease or a pathological bodily process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> "pathological condition"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> ObjectUnionOf(<http://purl.obolibrary.org/obo/OGMS_0000031> <http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/OGMS_0000061>))
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/SEPIO_0000048> (contributor role)
 
