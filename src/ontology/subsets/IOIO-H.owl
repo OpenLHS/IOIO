@@ -17,8 +17,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/subsets/IOIO-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-06-27/subsets/IOIO-H.owl"/>
-        <owl:versionInfo>2023-06-27</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-04/subsets/IOIO-H.owl"/>
+        <owl:versionInfo>2023-07-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -189,9 +189,15 @@
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000061 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000061">
-        <obo:OpenLHS-Core_0000062 xml:lang="en">Necessary conditions that are definitional, that is the notion to be defined does not appear in the conditions.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">definitional necessary conditions</rdfs:label>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">Necessary condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">definitional necessary condition</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedTarget xml:lang="en">Necessary condition that is definitional, that is the notion to be defined does not appear in the condition.</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">If we know several necessary conditions associated with an entity, we write as definitional necessary condition the conjunction of them.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -201,6 +207,12 @@
         <obo:OpenLHS-Core_0000062 xml:lang="en">A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">definitional necessary and sufficient condition</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedTarget xml:lang="en">A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition.</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">If we know several necessary and sufficient conditions associated with an entity, we write as definitional necessary and sufficient condition the disjunction of them, and as definitional necessary condition the conjunction of them.</rdfs:comment>
+    </owl:Axiom>
     
 
 
