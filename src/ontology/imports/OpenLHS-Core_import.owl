@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl>
-<http://purl.obolibrary.org/obo/IOIO/releases/2023-07-04/imports/OpenLHS-Core_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-07-04/OpenLHS-Core.owl>)
-Annotation(owl:versionInfo "2023-07-04")
+<http://purl.obolibrary.org/obo/IOIO/releases/2023-07-05/imports/OpenLHS-Core_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2023-07-05/OpenLHS-Core.owl>)
+Annotation(owl:versionInfo "2023-07-05")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -691,19 +691,19 @@ IrreflexiveObjectProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000008>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000008> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000012>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000008> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000013>)
 
-# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> (successfully directs)
+# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> (maximally directs)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> "A successfully directs B := A directs B, and B is compliant to A."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> "A maximally directs B := A directs B, and B is compliant to A."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> "Discussed in: Adrien Barton, Laure Vieu, Jean-François Ethier. Directing Actions. Workshop on Foundational Ontology (FOUST III), Joint Ontology Workshops (JOWO 2019), Sep 2019, Graz, Austria."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> "successfully directs"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> "maximally directs"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000007>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> <http://purl.obolibrary.org/obo/IAO_0000033>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000066> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> (is successfully directed by)
+# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> (is maximally directed by)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> "The inverse relation of is successfully directed by."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> "is successfully directed by"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> "The inverse relation of maximally directs."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> "is maximally directed by"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000004>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/IAO_0000033>)

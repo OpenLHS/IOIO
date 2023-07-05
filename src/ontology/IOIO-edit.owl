@@ -55,14 +55,6 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
-############################
-#   Object Properties
-############################
-
-# Object Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000007> (directs)
-
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000007> <http://purl.obolibrary.org/obo/RO_0000058>)
-
 
 
 ############################
