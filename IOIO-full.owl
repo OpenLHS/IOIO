@@ -17,11 +17,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/IOIO-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-04/IOIO-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-05/IOIO-full.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Individual Organism Information Ontology</dcterms:title>
-        <owl:versionInfo>2023-07-04</owl:versionInfo>
+        <owl:versionInfo>2023-07-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -854,7 +854,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000007 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000007">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A directs B := A is a directive information entity that guides an agent in the execution of B.</obo:OpenLHS-Core_0000061>
@@ -888,9 +887,9 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000007"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A successfully directs B := A directs B, and B is compliant to A.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">A maximally directs B := A directs B, and B is compliant to A.</obo:OpenLHS-Core_0000061>
         <rdfs:comment xml:lang="en">Discussed in: Adrien Barton, Laure Vieu, Jean-François Ethier. Directing Actions. Workshop on Foundational Ontology (FOUST III), Joint Ontology Workshops (JOWO 2019), Sep 2019, Graz, Austria.</rdfs:comment>
-        <rdfs:label xml:lang="en">successfully directs</rdfs:label>
+        <rdfs:label xml:lang="en">maximally directs</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -901,8 +900,8 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of is successfully directed by.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">is successfully directed by</rdfs:label>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of maximally directs.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">is maximally directed by</rdfs:label>
     </owl:ObjectProperty>
     
 
