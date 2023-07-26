@@ -31,7 +31,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IOIO#IOIO-H>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/definition>))
 ############################
 #   Annotation Properties
 ############################

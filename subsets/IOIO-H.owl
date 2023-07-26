@@ -17,8 +17,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/subsets/IOIO-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-05/subsets/IOIO-H.owl"/>
-        <owl:versionInfo>2023-07-05</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-26/subsets/IOIO-H.owl"/>
+        <owl:versionInfo>2023-07-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -392,12 +392,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    
-
-
-    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
     
 
 
