@@ -17,11 +17,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/IOIO-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-05/IOIO-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-26/IOIO-full.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Individual Organism Information Ontology</dcterms:title>
-        <owl:versionInfo>2023-07-05</owl:versionInfo>
+        <owl:versionInfo>2023-07-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -395,12 +395,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    
-
-
-    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
     
 
 
