@@ -65,11 +65,10 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IOIO_0000001> "Connor, John, born on 28/2/1985
 
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000001> "A process temporal characterization about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000001> "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000001> "human birth statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000005>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000014>))
 
@@ -83,11 +82,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000002> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000003> (human death statement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IOIO_0000003> "Reese, Kyle died in 1984"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000003> "A process temporal characterization about the death of a human including an identifier and a temporal information of the death of this human."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000003> "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000003> "human death statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000006>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000014>))
 
