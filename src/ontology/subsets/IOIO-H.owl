@@ -17,8 +17,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/subsets/IOIO-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-26/subsets/IOIO-H.owl"/>
-        <owl:versionInfo>2023-07-26</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-07-27/subsets/IOIO-H.owl"/>
+        <owl:versionInfo>2023-07-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2342,12 +2342,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000005"/>
             </owl:Restriction>
@@ -2361,7 +2355,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000112 xml:lang="en">Connor, John, born on 28/2/1985
 
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporal characterization about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human birth statement</rdfs:label>
     </owl:Class>
@@ -2394,12 +2388,6 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000006"/>
             </owl:Restriction>
@@ -2411,7 +2399,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporal characterization about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human death statement</rdfs:label>
     </owl:Class>
