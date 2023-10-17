@@ -17,11 +17,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/IOIO-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-10-11/IOIO-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-10-17/IOIO-full.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Individual Organism Information Ontology</terms:title>
-        <owl:versionInfo>2023-10-11</owl:versionInfo>
+        <owl:versionInfo>2023-10-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1628,6 +1628,62 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</CommonCoreOntologies:is_curated_in_ontology>
         <rdfs:label xml:lang="en">has capability</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000058 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000058">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has textual representation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000059 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000072 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000072">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
+        <rdfs:label xml:lang="en">has numerical value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000073 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000073">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
+        <rdfs:label xml:lang="en">has temporal value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000074 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000074">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
+        <rdfs:label xml:lang="en">has text value</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -3406,6 +3462,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">postal code</rdfs:label>
@@ -3674,6 +3731,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
@@ -3780,6 +3838,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A statement stating the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human biological sex statement</rdfs:label>
     </owl:Class>
     
@@ -4455,6 +4514,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian forward sorting area code</rdfs:label>
@@ -4818,6 +4878,70 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">4 Km</obo:IAO_0000112>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity whose structure and content are specified and includes a litteral value.</obo:OpenLHS-Core_0000061>
+        <rdfs:label xml:lang="en">specified value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
+        <rdfs:label xml:lang="en">numerical specified value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">unit qualified scalar specified value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">unit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000060">
@@ -4858,6 +4982,12 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000073"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a one-dimension temporal region.</obo:IAO_0000115>
