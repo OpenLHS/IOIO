@@ -1,15 +1,15 @@
 ?x	?label
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid104	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid109	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid114	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid119	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid129	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid135	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid144	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid148	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid153	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid89	
-_:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid97	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid104	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid109	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid114	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid119	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid131	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid137	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid146	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid151	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid157	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid89	
+_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid97	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
@@ -38,6 +38,7 @@ _:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid97
 <http://purl.obolibrary.org/obo/IOIO_0000012>	"human biological sex or gender identity information content entity"
 <http://purl.obolibrary.org/obo/IOIO_0000013>	"organism identifier"
 <http://purl.obolibrary.org/obo/IOIO_0000014>	"human identifier"
+<http://purl.obolibrary.org/obo/IOIO_0000015>	"human biological sex statement"
 <http://purl.obolibrary.org/obo/NCBITaxon_2759>	"Eukaryota"
 <http://purl.obolibrary.org/obo/NCBITaxon_9606>	"Homo sapiens"
 <http://purl.obolibrary.org/obo/OBI_0000011>	"planned process"
@@ -49,6 +50,7 @@ _:Bc0ea6f05X2D8a01X2D4a57X2D9ac4X2D0d0658b76fcagenid97
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporally qualifying statement"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporally qualifying statement"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>	"agent plan to act as if some statement was true"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>	"specified value"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>	"temporal information"
 <http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
 <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>	"Agent"
