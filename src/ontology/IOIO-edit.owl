@@ -13,6 +13,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl"/>
@@ -34,11 +35,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IOIO#IOIO-H -->
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IOIO#IOIO-H">
-        <rdfs:comment xml:lang="en">IOIO classes relevent to humans.</rdfs:comment>
-        <rdfs:label xml:lang="en">IOIO-H</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H">
+        <rdfs:comment xml:lang="en">OpenLHS classes relevant to humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">OpenLHS-H</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -100,7 +101,7 @@
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human birth statement</rdfs:label>
     </owl:Class>
     
@@ -119,7 +120,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">A state sanctioned human birth statement.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human birth statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">civil birth record</rdfs:label>
     </owl:Class>
     
@@ -144,7 +145,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human death statement</rdfs:label>
     </owl:Class>
     
@@ -163,7 +164,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">A state sanctioned human death statement.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human death statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">civil death record</rdfs:label>
     </owl:Class>
     
@@ -218,10 +219,9 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex information content entity</rdfs:label>
     </owl:Class>
     
@@ -241,7 +241,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex or gender identity information content entity</rdfs:label>
     </owl:Class>
     
@@ -287,7 +287,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An organism identifier that denotes a particular human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human identifier</rdfs:label>
     </owl:Class>
     
@@ -311,7 +311,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A statement stating the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex statement</rdfs:label>
     </owl:Class>
     
@@ -336,6 +336,14 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <obo:OpenLHS-Core_0000062 xml:lang="en">A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">human death date</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
