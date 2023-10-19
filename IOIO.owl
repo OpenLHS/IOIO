@@ -15,13 +15,14 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-10-17/IOIO.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2023-10-19/IOIO.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Individual Organism Information Ontology</terms:title>
-        <owl:versionInfo>2023-10-17</owl:versionInfo>
+        <owl:versionInfo>2023-10-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -298,11 +299,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IOIO#IOIO-H -->
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IOIO#IOIO-H">
-        <rdfs:comment xml:lang="en">IOIO classes relevent to humans.</rdfs:comment>
-        <rdfs:label xml:lang="en">IOIO-H</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H">
+        <rdfs:comment xml:lang="en">OpenLHS classes relevant to humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">OpenLHS-H</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -3462,7 +3463,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">postal code</rdfs:label>
@@ -3608,7 +3608,7 @@ When there is no such string, it is almost always because the entities take the 
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human birth statement</rdfs:label>
     </owl:Class>
     
@@ -3629,7 +3629,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A state sanctioned human birth statement.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human birth statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">civil birth record</rdfs:label>
     </owl:Class>
     
@@ -3654,7 +3654,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human death statement</rdfs:label>
     </owl:Class>
     
@@ -3675,7 +3675,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A state sanctioned human death statement.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human death statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">civil death record</rdfs:label>
     </owl:Class>
     
@@ -3731,10 +3731,9 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000012"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex information content entity</rdfs:label>
     </owl:Class>
     
@@ -3754,7 +3753,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex or gender identity information content entity</rdfs:label>
     </owl:Class>
     
@@ -3814,7 +3813,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An organism identifier that denotes a particular human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human identifier</rdfs:label>
     </owl:Class>
     
@@ -3838,7 +3837,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A statement stating the biological sex of a human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex statement</rdfs:label>
     </owl:Class>
     
@@ -3921,6 +3920,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
         <obo:IAO_0000118>human</obo:IAO_0000118>
         <obo:IAO_0000118>human being</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label>Homo sapiens</rdfs:label>
     </owl:Class>
     
@@ -4514,7 +4514,6 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
         <obo:IAO_0000115 xml:lang="en">An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian forward sorting area code</rdfs:label>
@@ -4889,7 +4888,7 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">4 Km</obo:IAO_0000112>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity whose structure and content are specified and includes a litteral value.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity whose structure and content follow a template.</obo:OpenLHS-Core_0000061>
         <rdfs:label xml:lang="en">specified value</rdfs:label>
     </owl:Class>
     
@@ -4982,12 +4981,6 @@ edited date: 30 SEPT 2015</obo:IAO_0000232>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000073"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a one-dimension temporal region.</obo:IAO_0000115>

@@ -1,15 +1,15 @@
 ?x	?label
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid104	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid109	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid114	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid119	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid131	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid137	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid146	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid151	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid157	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid89	
-_:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid97	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid104	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid109	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid114	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid119	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid131	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid137	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid146	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid150	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid155	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid89	
+_:B090f343bX2Dd884X2D46a4X2D9990X2De2727c02e834genid97	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
@@ -50,7 +50,6 @@ _:Bdb7521b7X2D01a1X2D47ddX2Db8e8X2D408eeba78221genid97
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporally qualifying statement"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporally qualifying statement"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>	"agent plan to act as if some statement was true"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>	"specified value"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>	"temporal information"
 <http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
 <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>	"Agent"
