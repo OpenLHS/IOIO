@@ -2642,8 +2642,8 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A statement stating the biological sex of a human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
+        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement stating the biological sex of a human.</obo:IAO_0000115>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">human biological sex statement</rdfs:label>
     </owl:Class>
