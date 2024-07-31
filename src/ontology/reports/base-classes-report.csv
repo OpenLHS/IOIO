@@ -10,6 +10,6 @@ IOIO_0000011,human biological sex information content entity,A biological sex in
 IOIO_0000012,human biological sex or gender identity information content entity,An information content entity that denotes a biological sex or a gender identity of a human.
 IOIO_0000013,organism identifier,An identifier that denotes a particular organism.
 IOIO_0000014,human identifier,An organism identifier that denotes a particular human.
-IOIO_0000015,human biological sex statement,A statement stating the biological sex of a human.
+IOIO_0000015,human biological sex statement,A pragmatically accepted statement stating the biological sex of a human.
 IOIO_0000020,human birth date,A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
 IOIO_0000021,human death date,A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
