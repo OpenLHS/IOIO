@@ -13,3 +13,5 @@ IOIO_0000014,human identifier,An organism identifier that denotes a particular h
 IOIO_0000015,human biological sex statement,A pragmatically accepted statement stating the biological sex of a human.
 IOIO_0000020,human birth date,A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
 IOIO_0000021,human death date,A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
+IOIO_0000022,primary residence statement,A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time.
+IOIO_0000023,living environment type,An information content entity that aims at representing a type of living environment applicable to a primary residence.
