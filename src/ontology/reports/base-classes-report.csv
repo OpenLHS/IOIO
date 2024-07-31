@@ -1,0 +1,15 @@
+IRI,value,def
+IOIO_0000001,human birth statement,A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.
+IOIO_0000002,civil birth record,A state sanctioned human birth statement.
+IOIO_0000003,human death statement,A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.
+IOIO_0000004,civil death record,A state sanctioned human death statement.
+IOIO_0000005,human birth temporal information,A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.
+IOIO_0000006,human death temporal information,A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.
+IOIO_0000010,biological sex information content entity,An information content entity that denotes the biological sex of an organism.
+IOIO_0000011,human biological sex information content entity,A biological sex information content entity that denotes the biological sex of a human.
+IOIO_0000012,human biological sex or gender identity information content entity,An information content entity that denotes a biological sex or a gender identity of a human.
+IOIO_0000013,organism identifier,An identifier that denotes a particular organism.
+IOIO_0000014,human identifier,An organism identifier that denotes a particular human.
+IOIO_0000015,human biological sex statement,A statement stating the biological sex of a human.
+IOIO_0000020,human birth date,A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
+IOIO_0000021,human death date,A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
