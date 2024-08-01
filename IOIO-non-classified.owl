@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/IOIO.owl#"
-     xml:base="http://purl.obolibrary.org/obo/IOIO.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/IOIO/IOIO-non-classified.owl#"
+     xml:base="http://purl.obolibrary.org/obo/IOIO/IOIO-non-classified.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -17,8 +17,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2024-08-01/IOIO.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/IOIO-non-classified.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2024-08-01/IOIO-non-classified.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Individual Organism Information Ontology</terms:title>
