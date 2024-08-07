@@ -17,8 +17,8 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/subsets/OpenLHS-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2024-08-06/subsets/OpenLHS-H.owl"/>
-        <owl:versionInfo>2024-08-06</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2024-08-07/subsets/OpenLHS-H.owl"/>
+        <owl:versionInfo>2024-08-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -233,19 +233,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000064">
         <obo:IAO_0000600 xml:lang="en">Human-readable necessary and sufficient membership conditions of a class or a property.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">necessary and sufficient conditions</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000100 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000100">
-        <obo:IAO_0000115 xml:lang="en">An annotation property used to tag relevant classes for ontorel generation</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">Three values for this annotation (WIP) :
- - interest: means that the annotated class instances or associated data properties are of interest for a request.
- - joint: means that the annotated clas or property is necessary for a jointure in the request.
- - pivot: means that the annotated class is the pivot of the request.</rdfs:comment>
-        <rdfs:label xml:lang="en">ontorel specification</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1609,62 +1596,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</CommonCoreOntologies:is_curated_in_ontology>
         <rdfs:label xml:lang="en">has capability</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000058 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000058">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label xml:lang="en">has textual representation</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000059 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label xml:lang="en">has value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000072 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000072">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has numerical value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000073 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000073">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has temporal value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000074 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000074">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has text value</rdfs:label>
-    </owl:DatatypeProperty>
     
 
 
