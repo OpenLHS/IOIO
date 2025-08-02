@@ -15,3 +15,5 @@ IOIO_0000020,human birth date,A human birth temporal information that denotes a 
 IOIO_0000021,human death date,A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.
 IOIO_0000022,primary residence statement,A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time.
 IOIO_0000023,living environment type,An information content entity that aims at representing a type of living environment applicable to a primary residence.
+IOIO_0000030,human age at a specified temporal region,An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region.
+IOIO_0000031,human age at a specified temporal region statement,A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier.
