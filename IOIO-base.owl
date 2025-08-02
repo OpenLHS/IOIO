@@ -16,12 +16,12 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO/IOIO-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2024-08-07/IOIO-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/IOIO/releases/2025-08-02/IOIO-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Individual Organism Information Ontology</terms:title>
-        <owl:versionInfo>2024-08-07</owl:versionInfo>
+        <owl:versionInfo>2025-08-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -441,6 +441,38 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IOIO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">human age at a specified temporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IOIO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">human age at a specified temporal region statement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -480,6 +512,12 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SEPIO_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
 </rdf:RDF>
 
 
