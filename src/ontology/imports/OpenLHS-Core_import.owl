@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl>
-<http://purl.obolibrary.org/obo/IOIO/releases/2024-08-07/imports/OpenLHS-Core_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2024-08-07/OpenLHS-Core.owl>)
-Annotation(owl:versionInfo "2024-08-07")
+<http://purl.obolibrary.org/obo/IOIO/releases/2025-09-05/imports/OpenLHS-Core_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/OpenLHS-Core/releases/2025-09-05/OpenLHS-Core.owl>)
+Annotation(owl:versionInfo "2025-09-05")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -199,6 +199,9 @@ Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologi
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/capability_of>))
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_agent>))
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/Ontorel-Core_0000002>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/Ontorel-Core_0000003>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/Ontorel-Core_0000004>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
@@ -216,6 +219,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000600>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000601>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000602>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0010000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/Ontorel-Core_0000005>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000063>))
@@ -247,6 +251,8 @@ Declaration(AnnotationProperty(rdfs:isDefinedBy))
 Declaration(AnnotationProperty(rdfs:seeAlso))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/mbox>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/Ontorel-Core_0000001>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/Ontorel-Core_0000006>))
 ############################
 #   Annotation Properties
 ############################
@@ -330,6 +336,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000602> "has
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/iao.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0010000> "has axiom label"@en)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/Ontorel-Core_0000005> (ontorel specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/Ontorel-Core_0000005> "An annotation property used to tag relevant classes for ontorel generation."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/Ontorel-Core_0000005> "Three values for this annotation (WIP) :
+ - interest: means that the annotated class instances or associated data properties are of interest for a request.
+ - joint: means that the annotated clas or property is necessary for a jointure in the request.
+ - pivot: means that the annotated class is the pivot of the request."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000005> "ontorel specification"@en)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> (definitional necessary conditions)
 
@@ -1223,6 +1238,38 @@ ObjectPropertyDomain(<http://www.ontologyrepository.com/CommonCoreOntologies/has
 ObjectPropertyRange(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability>)
 
 
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://purl.obolibrary.org/obo/Ontorel-Core_0000002> (has textual value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000002> "has textual value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/Ontorel-Core_0000002> owl:topDataProperty)
+
+# Data Property: <http://purl.obolibrary.org/obo/Ontorel-Core_0000003> (has numerical value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000003> "has numerical value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/Ontorel-Core_0000003> owl:topDataProperty)
+
+# Data Property: <http://purl.obolibrary.org/obo/Ontorel-Core_0000004> (has temporal value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000004> "has temporal value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/Ontorel-Core_0000004> owl:topDataProperty)
+
+
+############################
+#   Datatypes
+############################
+
+# Datatype: <http://purl.obolibrary.org/obo/Ontorel-Core_0000001> (ISO8601DateTime)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000001> "ISO8601DateTime"@en)
+
+# Datatype: <http://purl.obolibrary.org/obo/Ontorel-Core_0000006> (ISO8601Duration)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/Ontorel-Core_0000006> "ISO8601Duration"@en)
+
 
 ############################
 #   Classes
@@ -1546,8 +1593,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "the restaurants in Palo Alto"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000027> "your collection of Meissen ceramic plates."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000027> "BFO 2 Reference: object aggregates may gain and lose parts while remaining numerically identical (one and the same individual) over time. This holds both for aggregates whose membership is determined naturally (the aggregate of cells in your body) and aggregates determined by fiat (a baseball team, a congressional committee)."@en)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/0000011>) <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000027> "An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects ")
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/0000301>) <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000027> "An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects ")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/0000011>) Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/0000301>) <http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000027> "An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects ")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/0000300>) <http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/BFO_0000027> "ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, 'A Theory of Granular Partitions', in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/025-004>) <http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000027> "b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0010000> <http://purl.obolibrary.org/obo/bfo/axiom/025-004>) <http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000027> "(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] ")

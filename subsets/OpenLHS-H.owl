@@ -186,6 +186,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000005">
+        <obo:IAO_0000115 xml:lang="en">An annotation property used to tag relevant classes for ontorel generation.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Three values for this annotation (WIP) :
+ - interest: means that the annotated class instances or associated data properties are of interest for a request.
+ - joint: means that the annotated clas or property is necessary for a jointure in the request.
+ - pivot: means that the annotated class is the pivot of the request.</rdfs:comment>
+        <rdfs:label xml:lang="en">ontorel specification</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000061 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000061">
@@ -424,6 +437,33 @@
     <!-- http://xmlns.com/foaf/0.1/mbox -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000001 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000001">
+        <rdfs:label xml:lang="en">ISO8601DateTime</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000006 -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000006">
+        <rdfs:label xml:lang="en">ISO8601Duration</rdfs:label>
+    </rdfs:Datatype>
     
 
 
@@ -1602,6 +1642,44 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000002 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000002">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has textual value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000003 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000003">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has numerical value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000004 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000004">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has temporal value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -2243,6 +2321,12 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
     <!-- http://purl.obolibrary.org/obo/IOIO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/Ontorel-Core_0000002"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An organism identifier that denotes a particular human.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>

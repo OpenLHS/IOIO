@@ -1,404 +1,228 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/IOIO.owl#"
-     xml:base="http://purl.obolibrary.org/obo/IOIO.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:IOIO="http://purl.obolibrary.org/obo/IOIO#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
-     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/IOIO.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl"/>
-        <terms:description>None</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <terms:title>Individual Organism Information Ontology</terms:title>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H">
-        <rdfs:comment xml:lang="en">OpenLHS classes relevant to humans.</rdfs:comment>
-        <rdfs:label xml:lang="en">OpenLHS-H</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:label>license</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000112 xml:lang="en">Connor, John, born on 28/2/1985
-
-Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human birth statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000002">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000001"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000011"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A state sanctioned human birth statement.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human birth statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">civil birth record</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human death statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000004">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000003"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000011"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A state sanctioned human death statement.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A state sanctioned human death statement.</obo:OpenLHS-Core_0000061>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">civil death record</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">human birth temporal information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000006 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">human death temporal information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes the biological sex of an organism.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that denotes the biological sex of an organism.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">biological sex information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000010"/>
-        <obo:IAO_0000115 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A biological sex information content entity that denotes the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human biological sex information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000012">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000011"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that denotes a biological sex or a gender identity of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human biological sex or gender identity information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000013">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000112 xml:lang="en">&apos;Goose&apos; (the name of a cat)</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a particular organism.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a particular organism.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">organism identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000014">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000013"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An organism identifier that denotes a particular human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement stating the biological sex of a human.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement stating the biological sex of a human.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">human biological sex statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000005"/>
-        <obo:IAO_0000115 xml:lang="en">A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">human birth date</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">human death date</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
-        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">primary residence statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that aims at representing a type of living environment applicable to a primary residence.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">living environment type</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human age at a specified temporal region</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IOIO_0000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000030"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human age at a specified temporal region statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-    </rdf:Description>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+Prefix(:=<http://purl.obolibrary.org/obo/IOIO.owl#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(IOIO:=<http://purl.obolibrary.org/obo/IOIO#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(OpenLHS-Core:=<http://purl.obolibrary.org/obo/OpenLHS-Core#>)
+Prefix(CommonCoreOntologies:=<http://www.ontologyrepository.com/CommonCoreOntologies/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/IOIO.owl>
+Import(<http://purl.obolibrary.org/obo/IOIO/imports/OpenLHS-Core_import.owl>)
+Annotation(terms:description "None")
+Annotation(terms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(terms:title "Individual Organism Information Ontology")
+
+Declaration(Class(obo:IOIO_0000001))
+Declaration(Class(obo:IOIO_0000002))
+Declaration(Class(obo:IOIO_0000003))
+Declaration(Class(obo:IOIO_0000004))
+Declaration(Class(obo:IOIO_0000005))
+Declaration(Class(obo:IOIO_0000006))
+Declaration(Class(obo:IOIO_0000010))
+Declaration(Class(obo:IOIO_0000011))
+Declaration(Class(obo:IOIO_0000012))
+Declaration(Class(obo:IOIO_0000013))
+Declaration(Class(obo:IOIO_0000014))
+Declaration(Class(obo:IOIO_0000015))
+Declaration(Class(obo:IOIO_0000020))
+Declaration(Class(obo:IOIO_0000021))
+Declaration(Class(obo:IOIO_0000022))
+Declaration(Class(obo:IOIO_0000023))
+Declaration(Class(obo:IOIO_0000030))
+Declaration(Class(obo:IOIO_0000031))
+Declaration(AnnotationProperty(OpenLHS-Core:OpenLHS-H))
+Declaration(AnnotationProperty(terms:description))
+Declaration(AnnotationProperty(terms:license))
+Declaration(AnnotationProperty(terms:title))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: OpenLHS-Core:OpenLHS-H (OpenLHS-H)
+
+AnnotationAssertion(rdfs:comment OpenLHS-Core:OpenLHS-H "OpenLHS classes relevant to humans."@en)
+AnnotationAssertion(rdfs:label OpenLHS-Core:OpenLHS-H "OpenLHS-H"@en)
+SubAnnotationPropertyOf(OpenLHS-Core:OpenLHS-H oboInOwl:SubsetProperty)
+
+# Annotation Property: terms:description (description)
+
+AnnotationAssertion(rdfs:label terms:description "description")
+
+# Annotation Property: terms:license (license)
+
+AnnotationAssertion(rdfs:label terms:license "license")
+
+# Annotation Property: terms:title (title)
+
+AnnotationAssertion(rdfs:label terms:title "title")
+
+
+
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:IOIO_0000001 (human birth statement)
+
+AnnotationAssertion(obo:IAO_0000112 obo:IOIO_0000001 "Connor, John, born on 28/2/1985
+
+Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000001 "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000061 obo:IOIO_0000001 "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000001 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000001 "human birth statement"@en)
+SubClassOf(obo:IOIO_0000001 obo:OpenLHS-Core_0000031)
+SubClassOf(obo:IOIO_0000001 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000005))
+SubClassOf(obo:IOIO_0000001 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000014))
+
+# Class: obo:IOIO_0000002 (civil birth record)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000002 "A state sanctioned human birth statement."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000061 obo:IOIO_0000002 "A state sanctioned human birth statement."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000002 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000002 "civil birth record"@en)
+EquivalentClasses(obo:IOIO_0000002 ObjectIntersectionOf(obo:IOIO_0000001 obo:OpenLHS-Core_0000011))
+
+# Class: obo:IOIO_0000003 (human death statement)
+
+AnnotationAssertion(obo:IAO_0000112 obo:IOIO_0000003 "Reese, Kyle died in 1984"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000003 "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000061 obo:IOIO_0000003 "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000003 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000003 "human death statement"@en)
+SubClassOf(obo:IOIO_0000003 obo:OpenLHS-Core_0000031)
+SubClassOf(obo:IOIO_0000003 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000006))
+SubClassOf(obo:IOIO_0000003 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000014))
+
+# Class: obo:IOIO_0000004 (civil death record)
 
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000004 "A state sanctioned human death statement."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000061 obo:IOIO_0000004 "A state sanctioned human death statement."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000004 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000004 "civil death record"@en)
+EquivalentClasses(obo:IOIO_0000004 ObjectIntersectionOf(obo:IOIO_0000003 obo:OpenLHS-Core_0000011))
+
+# Class: obo:IOIO_0000005 (human birth temporal information)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000005 "A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000005 "A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000005 "human birth temporal information"@en)
+SubClassOf(obo:IOIO_0000005 obo:OpenLHS-Core_0000065)
+SubClassOf(obo:IOIO_0000005 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000070 obo:IOIO_0000001))
+
+# Class: obo:IOIO_0000006 (human death temporal information)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000006 "A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000006 "A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000006 "human death temporal information"@en)
+SubClassOf(obo:IOIO_0000006 obo:OpenLHS-Core_0000065)
+SubClassOf(obo:IOIO_0000006 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000070 obo:IOIO_0000003))
+
+# Class: obo:IOIO_0000010 (biological sex information content entity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000010 "An information content entity that denotes the biological sex of an organism."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000010 "An information content entity that denotes the biological sex of an organism."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000010 "biological sex information content entity"@en)
+SubClassOf(obo:IOIO_0000010 obo:IAO_0000030)
+
+# Class: obo:IOIO_0000011 (human biological sex information content entity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000011 "A biological sex information content entity that denotes the biological sex of a human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000011 "A biological sex information content entity that denotes the biological sex of a human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000011 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000011 "human biological sex information content entity"@en)
+SubClassOf(obo:IOIO_0000011 obo:IOIO_0000010)
+
+# Class: obo:IOIO_0000012 (human biological sex or gender identity information content entity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000012 "An information content entity that denotes a biological sex or a gender identity of a human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000012 "An information content entity that denotes a biological sex or a gender identity of a human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000012 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000012 "human biological sex or gender identity information content entity"@en)
+EquivalentClasses(obo:IOIO_0000012 ObjectUnionOf(obo:IOIO_0000011 obo:OMRSE_00000209))
+SubClassOf(obo:IOIO_0000012 obo:IAO_0000030)
+
+# Class: obo:IOIO_0000013 (organism identifier)
+
+AnnotationAssertion(obo:IAO_0000112 obo:IOIO_0000013 "'Goose' (the name of a cat)"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000013 "An identifier that denotes a particular organism."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000013 "An identifier that denotes a particular organism."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000013 "organism identifier"@en)
+EquivalentClasses(obo:IOIO_0000013 ObjectIntersectionOf(obo:IAO_0020000 ObjectExactCardinality(1 obo:IAO_0000219 obo:OBI_0100026)))
+
+# Class: obo:IOIO_0000014 (human identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000014 "An organism identifier that denotes a particular human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000014 "An organism identifier that denotes a particular human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000014 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000014 "human identifier"@en)
+EquivalentClasses(obo:IOIO_0000014 ObjectIntersectionOf(obo:IOIO_0000013 ObjectExactCardinality(1 obo:IAO_0000219 obo:NCBITaxon_9606)))
+SubClassOf(obo:IOIO_0000014 DataExactCardinality(1 obo:Ontorel-Core_0000002))
+
+# Class: obo:IOIO_0000015 (human biological sex statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000015 "A pragmatically accepted statement stating the biological sex of a human."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000015 "A pragmatically accepted statement stating the biological sex of a human."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:IOIO_0000015 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:IOIO_0000015 "human biological sex statement"@en)
+SubClassOf(obo:IOIO_0000015 obo:OpenLHS-Core_0000010)
+SubClassOf(obo:IOIO_0000015 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000011))
+SubClassOf(obo:IOIO_0000015 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000014))
+
+# Class: obo:IOIO_0000020 (human birth date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000020 "A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000020 "A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000020 "human birth date"@en)
+SubClassOf(obo:IOIO_0000020 obo:IOIO_0000005)
+
+# Class: obo:IOIO_0000021 (human death date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000021 "A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:IOIO_0000021 "A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000021 "human death date"@en)
+SubClassOf(obo:IOIO_0000021 obo:IOIO_0000006)
+
+# Class: obo:IOIO_0000022 (primary residence statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000022 "A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000022 "primary residence statement"@en)
+SubClassOf(obo:IOIO_0000022 obo:OpenLHS-Core_0000010)
+
+# Class: obo:IOIO_0000023 (living environment type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000023 "An information content entity that aims at representing a type of living environment applicable to a primary residence."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000023 "living environment type"@en)
+SubClassOf(obo:IOIO_0000023 obo:IAO_0000030)
+
+# Class: obo:IOIO_0000030 (human age at a specified temporal region)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000030 "An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000030 "human age at a specified temporal region"@en)
+SubClassOf(obo:IOIO_0000030 obo:IAO_0000030)
+
+# Class: obo:IOIO_0000031 (human age at a specified temporal region statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:IOIO_0000031 "A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier."@en)
+AnnotationAssertion(rdfs:label obo:IOIO_0000031 "human age at a specified temporal region statement"@en)
+SubClassOf(obo:IOIO_0000031 obo:SEPIO_0000174)
+SubClassOf(obo:IOIO_0000031 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000014))
+SubClassOf(obo:IOIO_0000031 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000030))
+
+# Class: obo:NCBITaxon_9606 (Homo sapiens)
+
+AnnotationAssertion(oboInOwl:inSubset obo:NCBITaxon_9606 OpenLHS-Core:OpenLHS-H)
+
+
+)
