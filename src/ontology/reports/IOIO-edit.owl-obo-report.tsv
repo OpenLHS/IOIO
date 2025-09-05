@@ -7,5 +7,4 @@ WARN	missing_definition	title	IAO:0000115
 INFO	missing_superclass	civil birth record	rdfs:subClassOf	
 INFO	missing_superclass	civil death record	rdfs:subClassOf	
 INFO	missing_superclass	organism identifier	rdfs:subClassOf	
-INFO	missing_superclass	human identifier	rdfs:subClassOf	
 INFO	missing_superclass	NCBITaxon:9606	rdfs:subClassOf	

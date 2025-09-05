@@ -123,6 +123,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ontorel-Core_0000002 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/Ontorel-Core_0000002"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -365,6 +382,12 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/Ontorel-Core_0000002"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
